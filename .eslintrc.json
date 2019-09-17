@@ -23,6 +23,26 @@
     "simple-import-sort/sort": "error",
 
     // Using a type system makes it safe enough to spread props
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+
+    // Explicit return types
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true
+      }
+    ],
+
+    // Remove braces when possible
+    "arrow-body-style": ["error"],
+
+    // More lenient rules
+    "no-bitwise": "off",
+    "no-continue": "off",
+    "no-nested-ternary": "off",
+    "no-plusplus": "off",
+
+    // Allow array index in keys
+    "react/no-array-index-key": "off"
   }
 }
