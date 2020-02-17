@@ -12,14 +12,12 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "@chakra-ui/core": "^0.7.0",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
     "@types/react": "^16.9.31",
     "@types/react-helmet": "^5.0.15",
     "emotion-theming": "^10.0.27",
     "gatsby": "^2.20.9",
-    "gatsby-plugin-chakra-ui": "^0.1.4",
     "gatsby-plugin-emotion": "^4.2.0",
     "gatsby-plugin-manifest": "^2.3.3",
     "gatsby-plugin-react-helmet": "^3.2.1",

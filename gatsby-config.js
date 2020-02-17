@@ -7,7 +7,6 @@ const siteMetadata = {
 module.exports = {
   siteMetadata,
   plugins: [
-    'gatsby-plugin-chakra-ui',
     'gatsby-plugin-emotion',
     {
       resolve: 'gatsby-plugin-manifest',
